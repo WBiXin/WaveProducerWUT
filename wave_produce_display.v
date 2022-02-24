@@ -12,9 +12,9 @@ module wave_produce_display(
 	output 			ad_clk,			//AD驱动时钟信号；
 	
 	output         tmds_clk_p,    // TMDS 时钟通道
-   output         tmds_clk_n,
-   output [2:0]   tmds_data_p,   // TMDS 数据通道
-   output [2:0]   tmds_data_n
+        output         tmds_clk_n,
+        output [2:0]   tmds_data_p,   // TMDS 数据通道
+        output [2:0]   tmds_data_n
 
 );
 
@@ -31,7 +31,7 @@ module wave_produce_display(
 	wire				ad_buf_wren;
 	
 	wire 				pixel_clk;		//像素时钟；
-   wire 				pixel_clk_5x;	//5倍像素时钟；
+        wire 				pixel_clk_5x;	//5倍像素时钟；
 	wire 				clk_locked;
 	
 	wire   [11:0]  pixel_xpos_w;	//像素点横坐标；
