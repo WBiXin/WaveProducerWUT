@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Feb 24 15:40:24 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : wave_produce_display
+Top-level Entity Name : wave_produce_display
+Family : Cyclone IV E
+Total logic elements : 1,508
+    Total combinational functions : 1,111
+    Dedicated logic registers : 954
+Total registers : 970
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 83,968
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
